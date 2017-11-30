@@ -1,0 +1,6 @@
+[package]
+name = "rs-android-images"
+version = "0.1.0"
+authors = ["Stanislav Ursache <stanislavursache@outlook.com>"]
+
+[dependencies]
