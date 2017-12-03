@@ -1,0 +1,61 @@
+total 8232
+dr-xr-xr-x 266 root   root         0 2017-11-26 03:44 acct
+lrwxrwxrwx   1 root   root        50 1970-01-01 02:00 bugreports -> /data/user_de/0/com.android.shell/files/bugreports
+drwxrwx---   8 system cache     4096 2017-11-26 03:45 cache
+drwxr-xr-x   3 root   root         0 1970-01-01 02:00 config
+drwxrwx--x   3 radio  system    4096 2017-09-04 22:56 cpefs
+lrwxrwxrwx   1 root   root        17 1970-01-01 02:00 d -> /sys/kernel/debug
+drwxrwx--x  56 system system    4096 2017-11-26 03:45 data
+-rw-r--r--   1 root   root       994 1970-01-01 02:00 default.prop
+drwxr-xr-x  16 root   root      4420 2017-11-26 03:44 dev
+drwxrwx--x  21 radio  system    4096 2017-10-28 03:53 efs
+lrwxrwxrwx   1 root   root        11 1970-01-01 02:00 etc -> /system/etc
+lrwxrwxrwx   1 root   root         9 2017-11-26 03:44 factory -> /data/app
+-rw-r--r--   1 root   root    398140 1970-01-01 02:00 file_contexts.bin
+-rw-r-----   1 root   root       943 1970-01-01 02:00 fstab.goldfish
+-rw-r-----   1 root   root       968 1970-01-01 02:00 fstab.ranchu
+-rw-r-----   1 root   root      1603 1970-01-01 02:00 fstab.samsungexynos8890
+-rw-r-----   1 root   root      1058 1970-01-01 02:00 fstab.samsungexynos8890.fwup
+-rwxr-x---   1 root   root   2943376 1970-01-01 02:00 init
+-rwxr-x---   1 root   root      3583 1970-01-01 02:00 init.baseband.rc
+-rwxr-x---   1 root   root      3763 1970-01-01 02:00 init.container.rc
+-rwxr-x---   1 root   root      1540 1970-01-01 02:00 init.environ.rc
+-rwxr-x---   1 root   root      2924 1970-01-01 02:00 init.goldfish.rc
+-rwxr-x---   1 root   root      1449 1970-01-01 02:00 init.gps.rc
+-rwxr-x---   1 root   root      2368 1970-01-01 02:00 init.ranchu.rc
+-rwxr-x---   1 root   root     53559 1970-01-01 02:00 init.rc
+-rwxr-x---   1 root   root      1318 1970-01-01 02:00 init.rilchip.rc
+-rwxr-x---   1 root   root       404 1970-01-01 02:00 init.rilepdg.rc
+-rwxr-x---   1 root   root       157 1970-01-01 02:00 init.rilmptcp.rc
+-rwxr-x---   1 root   root     34626 1970-01-01 02:00 init.samsungexynos8890.rc
+-rwxr-x---   1 root   root     11660 1970-01-01 02:00 init.samsungexynos8890.usb.rc
+-rwxr-x---   1 root   root      6044 1970-01-01 02:00 init.usb.configfs.rc
+-rwxr-x---   1 root   root      6914 1970-01-01 02:00 init.usb.rc
+-rwxr-x---   1 root   root      3324 1970-01-01 02:00 init.wifi.rc
+-rwxr-x---   1 root   root       439 1970-01-01 02:00 init.zygote32.rc
+-rwxr-x---   1 root   root      2012 1970-01-01 02:00 init.zygote64_32.rc
+drwxrwxr-x   4 root   system      80 2017-11-26 03:44 knox_data
+drwxr-xr-x   3 root   root        60 1970-01-01 02:00 lib
+drwxr-xr-x  12 root   system     260 2017-11-26 03:44 mnt
+drwxr-xr-x   3 root   root        60 1970-01-01 02:00 oem
+drwxr-xr-x   3 system system      60 2017-11-26 03:44 persdata
+-rw-r--r--   1 root   root      2088 1970-01-01 02:00 postrecovery.do
+drwxrwx--x   2 system system      40 2017-11-26 03:44 preload
+dr-xr-xr-x 418 root   root         0 1970-01-01 02:00 proc
+-rw-r--r--   1 root   root     23781 1970-01-01 02:00 property_contexts
+-rw-r--r--   1 root   root      1509 1970-01-01 02:00 publiccert.pem
+drwx------   2 root   root        40 2017-10-24 09:31 root
+drwxr-x---   2 root   root       240 1970-01-01 02:00 sbin
+lrwxrwxrwx   1 root   root        21 1970-01-01 02:00 sdcard -> /storage/self/primary
+-rw-r--r--   1 root   root     11568 1970-01-01 02:00 seapp_contexts
+-rw-r--r--   1 root   root    518952 1970-01-01 02:00 sepolicy
+-rw-r--r--   1 root   root       485 1970-01-01 02:00 sepolicy_version
+-rw-r--r--   1 root   root     41938 1970-01-01 02:00 service_contexts
+drwxr-xr-x   7 root   root       140 2017-11-26 03:49 storage
+dr-xr-xr-x  15 root   root         0 2017-11-26 03:44 sys
+drwxr-xr-x  27 root   root      4096 2017-11-26 03:44 system
+-rw-r--r--   1 root   root       323 1970-01-01 02:00 ueventd.goldfish.rc
+-rw-r--r--   1 root   root       272 1970-01-01 02:00 ueventd.ranchu.rc
+-rw-r--r--   1 root   root      5363 1970-01-01 02:00 ueventd.rc
+-rw-r--r--   1 root   root      8931 1970-01-01 02:00 ueventd.samsungexynos8890.rc
+lrwxrwxrwx   1 root   root        14 1970-01-01 02:00 vendor -> /system/vendor
