@@ -5,3 +5,5 @@ authors = ["Stanislav Ursache <stanislavursache@outlook.com>"]
 
 [dependencies]
 subprocess = "0.1.12"
+rocket = "0.3.3"
+rocket_codegen = "0.3.3"

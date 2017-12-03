@@ -7,19 +7,11 @@ pub struct Adb {}
 
 // count and filter devices
 pub fn devices() -> String {
-    run_exec(&[
-        "platform-tools/adb.exe",
-        "devices",
-    ]).expect("devices failed")
+    run_exec(&["platform-tools/adb.exe", "devices", "-l"]).expect("devices failed")
 }
 
 pub fn ls(target_folder: &str) -> String {
-    run_exec(&[
-        "platform-tools/adb.exe",
-        "shell",
-        "ls",
-        target_folder,
-    ]).expect("ls failed")
+    run_exec(&["platform-tools/adb.exe", "shell", "ls", target_folder]).expect("ls failed")
 }
 
 pub fn ls_images(target_folder: &str) -> String {
